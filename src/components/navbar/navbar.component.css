@@ -1,0 +1,38 @@
+section{
+    background-color: hsl(125, 86%, 54%);
+    padding: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color:hsl(125, 86%, 54%);
+    color: hsl(0, 0%, 4%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 4px 2px;
+    flex-grow: 1;
+    font-weight: bold;    
+}
+
+.nav_button{
+    border-right: 2px solid black;
+}
+
+button:hover{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.Cerrar_Sesion:hover{
+    background-color: brown;
+}
+
+.Cerrar_Sesion{
+    border-right: none;
+}
+
